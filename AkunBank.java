@@ -10,7 +10,7 @@ public class AkunBank {
         System.out.println("Selamat Datang di "+ this.bank);
         System.out.println("Saldo Terakhir Anda : Rp." + this.saldo);
     }
-    public int simpanUang(){
+    public int simpanUang() {
         System.out.println("Selamat Datang di "+ this.bank);
         System.out.print("Masukan jumlah uang yang akan disimpan : Rp.");
         int simpan = get.nextInt();
