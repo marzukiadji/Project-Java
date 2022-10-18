@@ -38,10 +38,10 @@ public class AkunBank {
         System.out.println("\tSELAMAT DATANG DI " + this.bank);
         System.out.println("1. CEK SALDO \n2. AMBIL UANG\n3. SIMPAN UANG\n4. EXIT");
         System.out.print("Masukan pilihan anda : ");
-        int choiche = get.nextInt();
+        int choice = get.nextInt();
         System.out.println("=======================================================\n");
 
-        switch(choiche) {
+        switch(choice) {
             case 1 :
                 cekSaldo();
                 System.out.println("=======================================================\n");
