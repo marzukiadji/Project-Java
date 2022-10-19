@@ -58,9 +58,11 @@ public class AkunBank {
                 simpanUang();
                 System.out.println("=======================================================\n");
                 menu();
+                break;
             case 4 :
                 System.out.println("TERIMAKASIH..");
                 System.out.println("=======================================================\n");
+                break;
             default:
                 System.out.println("ANDA MEMASUKAN INPUT YANG SALAH!!\n");
         }
